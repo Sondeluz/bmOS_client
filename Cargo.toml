@@ -1,5 +1,7 @@
 [package]
 name = "bmos_client"
+license =  "GPL-3.0-or-later"
+authors = ["Sam <github@samueldgv.com>"]
 version = "1.0.0"
 edition = "2018"
 
