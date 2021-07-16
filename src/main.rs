@@ -22,7 +22,7 @@ fn main() -> std::io::Result<()> {
     let stdin = io::stdin();
 
     for line in stdin.lock().lines() {
-        let (name, conf) = bmOS_client::parse_intent(line.unwrap().as_bytes()); // Pass the line as an &[u8]
+        let (name, conf) = bmos_client::parse_intent(line.unwrap().as_bytes()); // Pass the line as an &[u8]
         println!("Recognized: {},{}", name, conf);
         
         let mut name_to_send = name.to_owned();
