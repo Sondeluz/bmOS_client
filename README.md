@@ -13,7 +13,7 @@
  ## Recommended setup
  Everything is designed around voice2json as the source of intent recognition. The documentation is available [here](http://voice2json.org/#getting-started). The best results have been obtained with the [default profiles](http://voice2json.org/#supported-languages), both in English and Spanish, though one should expect a moderate amount of false positives if the environment is noisy.
  Below is an example of a barebones sentences.ini file (which is the only modification I did on the downloaded profiles):
- ```toml
+ ```
  [hello]
  hi beemo
  hello beemo
