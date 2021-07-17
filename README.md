@@ -1,6 +1,9 @@
  # bmOS_client
 
  bmOS_client is an executable in charge of receiving and parsing JSON input from stdin and sending intents with enough confidence (>0.6) to the address and port provided (to bmOS_server). This is part of the software required to run my custom BMO-Boy. Images and a blog post are coming soon.
+ More in-depth documentation is available [here](https://docs.rs/bmos_client/).
+ The documentation and setup information for bmOS_server, the other software component which powers BMO itself, is also available [here](https://docs.rs/crate/bmos_server/), with the source located [here](https://github.com/Sondeluz/bmOS_server)
+ 
 
  ## Expected input
  bmOS_client expects JSON strings with the format specified [here](http://voice2json.org/formats.html), and looks for the intent's name and confidence, sending it if the confidence's enough.
