@@ -5,6 +5,8 @@
  
  The documentation and setup information for bmOS_server, the other software component which powers BMO itself, is also available [here](https://docs.rs/crate/bmos_server/), with the source located [here](https://github.com/Sondeluz/bmOS_server)
  
+ ## Building
+Using [cargo](https://crates.io), run ```cargo install bmos_client``` to download and compile it.
 
  ## Expected input
  bmOS_client expects JSON strings with the format specified [here](http://voice2json.org/formats.html), and looks for the intent's name and confidence, sending it if the confidence's enough.
